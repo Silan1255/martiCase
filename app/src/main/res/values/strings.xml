@@ -1,3 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">MartiProject</string>
+    <string name="app_name">Martı Case</string>
+    <string name="pick_location">Konum Seç</string>
+    <string name="confirm_location">Konumu Onayla</string>
+    <string name="address_copied">Adres kopyalandı</string>
+    <string name="start_tracking">Başla</string>
+    <string name="stop_tracking">Dur</string>
+    <string name="status">Status</string>
+
+    <!-- DirectionService -->
+    <string name="http_error_code">HTTP Error Code: %1$d</string>
+    <string name="error_getting_directions">Error getting directions: %1$s</string>
+    <string name="api_response_status">API Response Status: %1$s</string>
+    <string name="no_routes_found">No routes found</string>
+    <string name="json_parsing_error">JSON parsing error: %1$s</string>
+
+    <!-- GoogleAddressService -->
+    <string name="address_not_found">Address not found</string>
+    <string name="could_not_get_address_info">Could not get address information</string>
+    <string name="error_processing_address">Error processing address</string>
+    <string name="geocoding_language_code">tr</string>
+
+    <!-- LocationService -->
+    <string name="location_coordinates">Enlem: %1$.6f, Boylam: %2$.6f</string>
+    <string name="location_tracking">Konum İzleme</string>
+    <string name="location_tracking_notifications">Konum izleme bildirimleri</string>
+    <string name="from_notification_key">FROM_NOTIFICATION</string>
+    <string name="restore_navigation_key">RESTORE_NAVIGATION</string>
+    <string name="navigation_active">Navigasyon Devam Ediyor</string>
+    <string name="tracking_location">Konum İzleniyor</string>
+    <string name="navigation_description">Hedefe doğru yönlendiriliyorsunuz. Açmak için dokunun.</string>
+    <string name="tracking_description">Konumunuz arka planda izleniyor. Açmak için dokunun.</string>
+    <string name="saved_location_provider">saved</string>
+    <string name="stop_navigation">Navigasyonu durdur</string>
+
+    <!-- Button -->
+    <string name="ok">Tamam</string>
+    <string name="cancel">İptal</string>
+    <string name="copy">Kopyala</string>
+    <string name="btn_detail">Detaylar için tıklayın</string>
+
+    <!-- Address -->
+    <string name="address">Adres</string>
+    <string name="address_loading">Adres yükleniyor...</string>
+    <string name="address_not_available">Adres alınamadı</string>
+
+    <!-- Marker -->
+    <string name="my_location">Konumum</string>
+    <string name="destination_location">Hedef Konum</string>
+    <string name="path_point">Yol Noktası %1$d</string>
+
+    <!-- Navigation-->
+    <string name="route_directions">Yol Tarifi</string>
+    <string name="how_to_go">Seçilen konuma nasıl gitmek istersiniz?</string>
+    <string name="by_car">Araç ile</string>
+    <string name="by_walking">Yürüyerek</string>
+    <string name="route_info">Yol Bilgisi</string>
+    <string name="start_navigation">Navigasyonu Başlat</string>
+    <string name="destination_reached">Hedefe Ulaşıldı</string>
+    <string name="destination_reached_message">Hedef konuma ulaştınız.</string>
+    <string name="distance_format">Mesafe: %1$s</string>
+    <string name="duration_format">Süre: %1$s</string>
+    <string name="navigation_error">Yol tarifi alınamadı: %1$s</string>
+
+    <!-- Permission-->
+    <string name="background_permission_title">Arka Plan Konum İzni</string>
+    <string name="background_permission_message">Uygulamanın arka planda konumunuzu izlemesine izin vermek için lütfen \'Her zaman izin ver\' seçeneğini seçin.</string>
+    <string name="permission_grant">İzin ver</string>
+    <string name="permission_later">Şimdi değil</string>
+    <string name="formatted_address">formatted_address</string>
+    <string name="results">results</string>
+
 </resources>
